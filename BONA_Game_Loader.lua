@@ -65,12 +65,12 @@ local Games = {
         end
     },
 
-    [140067658687251] = {
-        Name = "Rope an animal",
+    [70595515410888] = {
+        Name = "Rope An Egg",
 
         Load = function()
             task.spawn(function()
-                print("Rope an animal - task started")
+                print("Rope An Egg - task started")
 
                 loadstring(game:HttpGet(
                     "https://raw.githubusercontent.com/BONA-SOMS/Rope-an-egg/refs/heads/main/BONA_Rope_an_Egg.lua"
@@ -78,7 +78,7 @@ local Games = {
             end)
 
             task.spawn(function()
-                print("Rope an animal - main started")
+                print("Rope An Egg - main started")
             end)
         end
     },
