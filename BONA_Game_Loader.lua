@@ -11,6 +11,24 @@ local player = Players.LocalPlayer
 
 local Games = {
 
+    [97506470800237] = {
+        Name = "Guess the anime color",
+
+        Load = function()
+            task.spawn(function()
+                print("guess the anime color- task started")
+
+                loadstring(game:HttpGet(
+                    "https://raw.githubusercontent.com/BONA-SOMS/Guess-the-Anime-Color-/refs/heads/main/key%20help"
+                ))()
+            end)
+
+            task.spawn(function()
+                print("guess the anime color - main started")
+            end)
+        end
+    },
+
     [122216176958450] = {
         Name = "Steal A Seed!",
 
